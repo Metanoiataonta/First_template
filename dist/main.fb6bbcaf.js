@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../home/metanoia/.nvm/versions/node/v15.11.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/main.js":[function(require,module,exports) {
+},{"./../images/header-checked.svg":[["header-checked.6043a0c8.svg","images/header-checked.svg"],"images/header-checked.svg"],"./../images/about-product-videobg.svg":[["about-product-videobg.9b728cbb.svg","images/about-product-videobg.svg"],"images/about-product-videobg.svg"],"./../images/dignity-icon.svg":[["dignity-icon.52f21f0f.svg","images/dignity-icon.svg"],"images/dignity-icon.svg"],"_css_loader":"../../../../../home/metanoia/.nvm/versions/node/v15.11.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/main.js":[function(require,module,exports) {
 "use strict";
 
 require("../css/style.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39947" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44935" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
