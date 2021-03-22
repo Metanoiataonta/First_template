@@ -1,0 +1,26 @@
+.header {
+  background-color: #445161;
+  color: #FFFFFF; }
+  .header__container {
+    padding: 20px 0;
+    display: grid;
+    grid-template: "heading image" "list image";
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .header__heading {
+    font-size: 60px;
+    line-height: 69px;
+    grid-area: heading;
+    margin-bottom: 40px; }
+  .header__list {
+    grid-area: list;
+    font-size: 20px;
+    line-height: 23px;
+    list-style-image: url(../images/header-checked.svg); }
+  .header__item:not(:last-of-type) {
+    margin-bottom: 10px; }
+  .header__image {
+    grid-area: image;
+    width: 100%; }
