@@ -1,0 +1,30 @@
+@import 'init';
+.header {
+    background-color: $headerMainColor;
+    color: $headerTextColor;
+    &__container {
+        padding: 20px 0;
+        display: grid;
+        grid-template: "heading image" "list image";
+        justify-content: space-between;
+    }
+    &__heading {
+        font-size: 60px;
+        line-height: 69px;
+        grid-area: heading;
+        margin-bottom: 40px;
+    }
+    &__list {
+        grid-area: list;
+        font-size: 20px;
+        line-height: 23px;
+        list-style-image: url(../images/header-checked.svg);
+    }
+    &__item:not(:last-of-type) {
+        margin-bottom: 10px;
+    }
+    &__image {
+        grid-area: image;
+        width: 100%;
+    }
+}

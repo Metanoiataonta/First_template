@@ -1,0 +1,22 @@
+@import 'init';
+.about-product {
+    &__container {
+        display: grid;
+        grid-template: "heading video" "article video";
+        column-gap: 96px;
+        padding: 45px 50px;
+    }
+    &__heading {
+        grid-area: heading;
+        margin-bottom: 17px;
+    }
+    &__video {
+        background-image: url(../images/about-product-videobg.svg);
+        background-size: cover;
+        place-self: stretch;
+        grid-area: video;
+    }
+    &__text:not(:last-of-type) {
+        margin-bottom: 11px;
+    }
+}
