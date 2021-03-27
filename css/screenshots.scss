@@ -1,0 +1,26 @@
+@import 'init';
+.screenshots__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 27px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: $headerMainColor;
+    .screenshots__heading {
+        grid-column: 1/3;
+        justify-self: center;
+    }
+    .screenshots__figure {
+        display: grid;
+        grid-template: min-content min-content / auto auto;
+        grid-gap: 13px;
+        .screenshots__figure-img {
+            grid-row: 1/3;
+        }
+        .screenshots__figure-heading {
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+}

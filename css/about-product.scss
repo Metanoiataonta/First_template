@@ -11,9 +11,6 @@
         margin-bottom: 17px;
     }
     &__video {
-        background-image: url(../images/about-product-videobg.svg);
-        background-size: cover;
-        place-self: stretch;
         grid-area: video;
     }
     &__text:not(:last-of-type) {

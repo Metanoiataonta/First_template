@@ -1,0 +1,37 @@
+.card {
+  background-color: #445161;
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid #445161;
+  padding: 14px 0 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content; }
+  .card__heading {
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 8px; }
+  .card__list {
+    margin-left: 40px;
+    list-style-type: decimal;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 20px; }
+  .card__item {
+    font-size: 14px;
+    line-height: 24px; }
+  .card__price {
+    font-size: 40px;
+    line-height: 30px;
+    background-color: #FFFFFF;
+    padding: 25px 106px 15px; }
+  .card__button {
+    font-size: 18px;
+    line-height: 18px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 110px 8px;
+    margin: 0px 20px;
+    text-transform: uppercase; }
