@@ -1,0 +1,55 @@
+@import 'init';
+.reviews {
+    background-color: $secondSectionColor;
+    .reviews__container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+        padding-top: 25px;
+        padding-bottom: 40px;
+        .reviews__heading {
+            grid-column: 1/3;
+            text-align: center;
+            color: $headerMainColor;
+            margin-bottom: 9px;
+        }
+    }
+    .reviews__figure {
+        .reviews__figure-item {
+            display: grid;
+            grid-template: min-content min-content / auto auto;
+            column-gap: 15px;
+        }
+        .reviews__figure-caption {
+            background: #EBEBEB;
+            border-radius: 5px;
+            padding: 15px 10px 5px 15px;
+            position: relative;
+            font-family: 'Roboto';
+            font-size: 14px;
+            line-height: 18px;
+            font-style: italic;
+        }
+        .reviews__figure-caption::before {
+            width: 0;
+            height: 0;
+            border-top: 14px solid transparent;
+            border-bottom: 14px solid transparent;
+            border-right: 10px solid #EBEBEB;
+            display: block;
+            position: absolute;
+            content: '';
+            left: -10px;
+            top: calc(50% - 16px);
+        }
+        .reviews__figure-text {
+            margin-bottom: 5px;
+            font-size: 14px;
+            line-height: 18px;
+            font-style: italic;
+        }
+        .reviews__figure-author {
+            color: #989898;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.about-product__container {
+  display: grid;
+  grid-template: "heading video" "article video";
+  -webkit-column-gap: 96px;
+     -moz-column-gap: 96px;
+          column-gap: 96px;
+  padding: 45px 50px; }
+
+.about-product__heading {
+  grid-area: heading;
+  margin-bottom: 17px; }
+
+.about-product__video {
+  grid-area: video; }
+
+.about-product__text:not(:last-of-type) {
+  margin-bottom: 11px; }

@@ -1,15 +1,55 @@
-@import 'reset';
+@import 'reset',
+'init',
+'header',
+'about-product',
+'dignity',
+'screenshots',
+'reviews',
+'card',
+'footer';
 .container {
     max-width: 1172px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
+// changed something
 .site-wrapper {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    .site-top {
-        flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-top {
+    flex-grow: 1;
+}
+
+.section-heading {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.article-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.buy-it-now {
+    color: $headerMainColor;
+    .buy-it-now__container {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        align-items: end;
+        justify-content: center;
+        column-gap: 45px;
+        padding: 45px 0 50px;
+        .buy-it-now__heading {
+            grid-column: 1/5;
+            text-align: center;
+            margin-bottom: 26px;
+        }
     }
 }

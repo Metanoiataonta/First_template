@@ -1,0 +1,42 @@
+@import 'init';
+.card {
+    background-color: $headerMainColor;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid $headerMainColor;
+    padding: 14px 0 20px;
+    height: fit-content;
+    &__heading {
+        font-size: 24px;
+        line-height: 30px;
+        color: $headerTextColor;
+        margin-bottom: 8px;
+    }
+    &__list {
+        margin-left: 40px;
+        list-style-type: decimal;
+        color: $headerTextColor;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    &__item {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    &__price {
+        font-size: 40px;
+        line-height: 30px;
+        background-color: $headerTextColor;
+        padding: 25px 106px 15px;
+    }
+    &__button {
+        font-size: 18px;
+        line-height: 18px;
+        background-color: $headerTextColor;
+        border: none;
+        border-radius: 5px;
+        padding: 14px 110px 8px;
+        margin: 0px 20px;
+        text-transform: uppercase;
+    }
+}
